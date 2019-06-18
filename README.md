@@ -1,17 +1,18 @@
 # Eloqua Python Connector
 Python 3 library for using the Eloqua API
-___ 
 
-[Eloqua API Documentation Here](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAC/rest-endpoints.html)
+Using this library requires knowledge of the Eloqua API. Please see the documentation provided by Eloqua
+[here](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAC/rest-endpoints.html)
 
 ## Installation
-Note that this library is only compatible with Python3
+This library is only compatible with Python3.
+ 
+You can install it using pip with the following command.
 ```commandline
 pip install eloqua-lib
 ```
 
 ## Features and Examples
----
 
 ### Manage your connection
 ``` python
@@ -124,8 +125,8 @@ CUSTOM_OBJECT_GET_LIST_PATH = "/api/REST/2.0/assets/customObjects"
 
 ### Testing
 To perform testing, it is preferable to use your sandbox instance. 
-1. Create a `eloqua/test/creds.py` file. An outline is provided in example_creds.py
-2. Run `eloqua/test/test.py` unittests
+1. Create a `test/creds.py` file. An outline is provided in example_creds.py
+2. Run `test/test.py` unittests
 
   
 ## Requirements
