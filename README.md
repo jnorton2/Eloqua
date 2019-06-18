@@ -4,8 +4,14 @@ ___
 
 [Eloqua API Documentation Here](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAC/rest-endpoints.html)
 
+## Installation
+Note that this library is only compatible with Python3
+```commandline
+pip install eloqua-lib
+```
 
-## Features
+## Features and Examples
+---
 
 ### Manage your connection
 ``` python

@@ -6,3 +6,7 @@ VENV/*
 .idea/*
 .DS_Store
 test/creds.py
+dist/*
+eloqua_lib.egg-info/*
+build/*
+setup.py
