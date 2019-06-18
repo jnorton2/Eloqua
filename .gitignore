@@ -1,0 +1,8 @@
+env/*
+ENV/*
+venv/*
+VENV/*
+*.pyc
+.idea/*
+.DS_Store
+eloqua/test/creds.py
