@@ -92,7 +92,7 @@ elq.delete(first_dog_owner)
 
 ```
 
-###Variable Paths
+### Variable Paths
 The `paths.py` holds all the paths used for interaction with the API. 
 Sometimes, a certain API versions works better than others so this is a place where you can change that. 
 
