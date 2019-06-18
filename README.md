@@ -76,11 +76,7 @@ class DogOwner(CustomObjectModel):
 
 #### CRUD actions with Custom Object Data Models
 ``` python
-first_dog_owner = elq.get(DogOwner, record_id='1', 
-    params={
-        "depth":"complete"
-    }
-)
+first_dog_owner = elq.get(DogOwner, record_id='1')
 
 all_corgi_dog_owners = elq.get_list(DogOwner, 
     params={
