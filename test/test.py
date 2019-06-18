@@ -3,7 +3,7 @@ import logging
 from unittest import TestCase
 import unittest
 
-from ..eloqua import EloquaConnection, CustomObject
+from eloqua.eloqua import EloquaConnection, CustomObject
 from .test_data import *
 from .creds import *
 
